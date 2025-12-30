@@ -12,13 +12,15 @@ This project is a full-stack chat application featuring a C++ backend server and
 
 ## Features
 
-- **Multi-user registration and authentication**
-- **Message persistence with MySQL database**
-- **Online user management**
-- **Supports public ("broadcast") and private messaging**
-- **Cross-platform desktop GUI (Windows/Linux/macOS) via Qt/QML**
-- **JSON-based protocol, length-prefixed over TCP**
-- **Rich logging with log rotation**
+- **Multi-user authentication (register/login/logout, username conflict, etc.)**
+- **MySQL-backed persistent chat history**
+- **Custom thread-safe database connection pool for robust MySQL performance**
+- **Efficient high-concurrency server design with Boost.Asio and multi-threading**
+- **Active online user management and broadcast**
+- **Public & private messaging (with recipient addressing)**
+- **Cross-platform GUI using Qt (C++/QML), native and fluid experience**
+- **Length-prefixed JSON protocol over TCP**
+- **Structured logging with support for file rotation**
 
 ---
 
