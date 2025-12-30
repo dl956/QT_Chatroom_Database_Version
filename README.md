@@ -69,11 +69,13 @@ This project is a full-stack chat application featuring a C++ backend server and
     - nlohmann::json
 
 2. **Compile (Example):**
+```sh
 mkdir build && cd build
 cmake .. -A x64 -DCMAKE_TOOLCHAIN_FILE="vcpkg.cmake path"
 cmake --build . --config Release
+```
 
-3. **Configure a MySQL database (see `chatdb` schema).**
+4. **Configure a MySQL database (see `chatdb` schema).**
 
 ---
 
@@ -84,16 +86,17 @@ cmake --build . --config Release
     - qmake or CMake
 
 2. **Build:**
+```sh
 cd client mkdir build && cd build 
 cmake .. -DCMAKE_PREFIX_PATH="your QT path
 cmake --build . --config Release 
 cd Release 
 run windeployqt & 'windeployqt.exe path' --qmldir 'client path' .\qt_chat_client.exe
-
+```
 ---
 
 ## Database Schema (Example)
-
+```sh
 docker run -d --name mymysql \
     -e MYSQL_ROOT_PASSWORD=mypassword \
     -p 3306:3306 \
