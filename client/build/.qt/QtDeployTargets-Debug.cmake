@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_qt_chat_client_FILE C:/Users/15588/Desktop/work/github/chatroom_database_submit/client/build/Debug/qt_chat_client.exe)
+set(__QT_DEPLOY_TARGET_qt_chat_client_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_qt_chat_client_RUNTIME_DLLS D:/Qt/6.10.0/msvc2022_64/bin/Qt6Quickd.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6QmlMetad.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6QmlWorkerScriptd.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6QmlModelsd.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6Qmld.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6Networkd.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6OpenGLd.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6Guid.dll;D:/Qt/6.10.0/msvc2022_64/bin/Qt6Cored.dll)

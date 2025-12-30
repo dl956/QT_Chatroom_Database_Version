@@ -1,0 +1,10 @@
+^C:\USERS\15588\DESKTOP\WORK\GITHUB\CHATROOM_DATABASE_SUBMIT\SERVER\BUILD\CMAKEFILES\77BA72D04199220FD165D2A6A25785C1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/15588/Desktop/work/github/chatroom_database_submit/server -BC:/Users/15588/Desktop/work/github/chatroom_database_submit/server/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/15588/Desktop/work/github/chatroom_database_submit/server/build/ChatServer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
