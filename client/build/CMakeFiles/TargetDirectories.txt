@@ -1,3 +1,0 @@
-C:/Users/15588/Desktop/work/github/chatroom_database_submit/client/build/CMakeFiles/qt_chat_client.dir
-C:/Users/15588/Desktop/work/github/chatroom_database_submit/client/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/15588/Desktop/work/github/chatroom_database_submit/client/build/CMakeFiles/ZERO_CHECK.dir
